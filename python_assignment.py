@@ -12,7 +12,6 @@ class FlightDatabase:
 
     def add_flight(self, flight):
         self.flights.append(flight)
-    2
 
     def search_by_id(self, flight_id):
         for flight in self.flights:
